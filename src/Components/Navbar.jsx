@@ -80,7 +80,7 @@ const Navbar = () => {
           <Link
             target="_blank"
             to="https://github.com/imtiaz-al-kabir"
-            className="btn bg-gradient-to-r from-[#632ee3] text-xl to-[#9f62f2] text-white"
+            className="btn btn-lg bg-gradient-to-r from-[#632ee3] text-xl to-[#9f62f2] text-white"
           >
             <FaGithub />
             <span>Contribute</span>
