@@ -1,362 +1,345 @@
 [
   {
-    "image": "https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg",
-    "title": "Facebook",
-    "companyName": "Meta Platforms, Inc.",
+    "image": "https://i.ibb.co.com/0yhBd3x8/taskflow.png",
+    "title": "TaskFlow",
+    "companyName": "NextGen Apps",
     "id": 1,
-    "description": "Connect with friends, share updates, and explore communities worldwide.",
-    "size": 72,
-    "reviews": 14500000,
-    "ratingAvg": 4.2,
-    "downloads": 5000000000,
-    "ratings": [
-      { "name": "1 star", "count": 350000 },
-      { "name": "2 star", "count": 600000 },
-      { "name": "3 star", "count": 2200000 },
-      { "name": "4 star", "count": 4500000 },
-      { "name": "5 star", "count": 7000000 }
-    ]
-  },
-  {
-    "image": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Apple-logo.png",
-    "title": "Apple Music",
-    "companyName": "Apple Inc.",
-    "id": 2,
-    "description": "Stream millions of songs, curated playlists, and exclusive content from your favorite artists.",
-    "size": 85,
-    "reviews": 3200000,
-    "ratingAvg": 4.5,
-    "downloads": 100000000,
-    "ratings": [
-      { "name": "1 star", "count": 120000 },
-      { "name": "2 star", "count": 200000 },
-      { "name": "3 star", "count": 400000 },
-      { "name": "4 star", "count": 1000000 },
-      { "name": "5 star", "count": 1480000 }
-    ]
-  },
-  {
-    "image": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Spotify_logo_vertical.svg",
-    "title": "Spotify",
-    "companyName": "Spotify AB",
-    "id": 3,
-    "description": "Discover and enjoy millions of tracks, podcasts, and playlists from around the world.",
-    "size": 60,
-    "reviews": 21000000,
-    "ratingAvg": 4.6,
-    "downloads": 1000000000,
-    "ratings": [
-      { "name": "1 star", "count": 900000 },
-      { "name": "2 star", "count": 800000 },
-      { "name": "3 star", "count": 2000000 },
-      { "name": "4 star", "count": 6500000 },
-      { "name": "5 star", "count": 10800000 }
-    ]
-  },
-  {
-    "image": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_Chrome_icon_(September_2014).svg",
-    "title": "Google Chrome",
-    "companyName": "Google LLC",
-    "id": 4,
-    "description": "Fast, secure, and simple web browser for browsing and syncing across devices.",
-    "size": 120,
-    "reviews": 35000000,
-    "ratingAvg": 4.3,
-    "downloads": 10000000000,
-    "ratings": [
-      { "name": "1 star", "count": 1200000 },
-      { "name": "2 star", "count": 1400000 },
-      { "name": "3 star", "count": 4000000 },
-      { "name": "4 star", "count": 8000000 },
-      { "name": "5 star", "count": 20000000 }
-    ]
-  },
-  {
-    "image": "https://upload.wikimedia.org/wikipedia/commons/5/58/Instagram-Icon.png",
-    "title": "Instagram",
-    "companyName": "Meta Platforms, Inc.",
-    "id": 5,
-    "description": "Capture and share moments, stories, and reels with your community.",
-    "size": 95,
-    "reviews": 27000000,
-    "ratingAvg": 4.4,
-    "downloads": 5000000000,
-    "ratings": [
-      { "name": "1 star", "count": 1000000 },
-      { "name": "2 star", "count": 1500000 },
-      { "name": "3 star", "count": 3500000 },
-      { "name": "4 star", "count": 7000000 },
-      { "name": "5 star", "count": 14000000 }
-    ]
-  },
-  {
-    "image": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Linkedin_icon.svg",
-    "title": "LinkedIn",
-    "companyName": "LinkedIn Corporation",
-    "id": 6,
-    "description": "Build your professional network, find jobs, and share career updates.",
-    "size": 80,
-    "reviews": 8500000,
-    "ratingAvg": 4.2,
-    "downloads": 1000000000,
-    "ratings": [
-      { "name": "1 star", "count": 500000 },
-      { "name": "2 star", "count": 700000 },
-      { "name": "3 star", "count": 1800000 },
-      { "name": "4 star", "count": 3000000 },
-      { "name": "5 star", "count": 2500000 }
-    ]
-  },
-  {
-    "image": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Gmail_icon_(2020).svg",
-    "title": "Gmail",
-    "companyName": "Google LLC",
-    "id": 7,
-    "description": "Smart, secure email app that keeps your messages organized and accessible.",
+    "description": "TaskFlow is a next-generation productivity tool designed to simplify the way you organize your personal and professional life. With a clean interface and intelligent features, it allows users to create, prioritize, and track tasks seamlessly. You can categorize projects, set recurring reminders, and monitor progress visually through dynamic boards and timelines. TaskFlow integrates cloud sync, ensuring your data is always backed up and accessible across devices. Its built-in analytics helps you identify time-wasting habits and optimize productivity. Whether you're managing team projects or personal goals, TaskFlow helps you stay focused, efficient, and stress-free every day.",
     "size": 45,
-    "reviews": 32000000,
+    "reviews": 1245,
     "ratingAvg": 4.6,
-    "downloads": 10000000000,
+    "downloads": 1500000,
     "ratings": [
-      { "name": "1 star", "count": 1100000 },
-      { "name": "2 star", "count": 1200000 },
-      { "name": "3 star", "count": 3000000 },
-      { "name": "4 star", "count": 6000000 },
-      { "name": "5 star", "count": 20700000 }
+      { "name": "1 star", "count": 45 },
+      { "name": "2 star", "count": 70 },
+      { "name": "3 star", "count": 160 },
+      { "name": "4 star", "count": 300 },
+      { "name": "5 star", "count": 670 }
     ]
   },
   {
-    "image": "https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg",
-    "title": "Netflix",
-    "companyName": "Netflix, Inc.",
-    "id": 8,
-    "description": "Watch popular TV shows, movies, and exclusive Netflix originals anytime.",
-    "size": 110,
-    "reviews": 29000000,
-    "ratingAvg": 4.5,
-    "downloads": 1000000000,
-    "ratings": [
-      { "name": "1 star", "count": 1300000 },
-      { "name": "2 star", "count": 1000000 },
-      { "name": "3 star", "count": 2500000 },
-      { "name": "4 star", "count": 6000000 },
-      { "name": "5 star", "count": 18200000 }
-    ]
-  },
-  {
-    "image": "https://upload.wikimedia.org/wikipedia/commons/3/30/Twitter_Logo.svg",
-    "title": "X (Twitter)",
-    "companyName": "X Corp.",
-    "id": 9,
-    "description": "Share your thoughts, follow trends, and engage with global conversations.",
-    "size": 70,
-    "reviews": 18000000,
-    "ratingAvg": 4.0,
-    "downloads": 1000000000,
-    "ratings": [
-      { "name": "1 star", "count": 2000000 },
-      { "name": "2 star", "count": 1500000 },
-      { "name": "3 star", "count": 3000000 },
-      { "name": "4 star", "count": 5000000 },
-      { "name": "5 star", "count": 6500000 }
-    ]
-  },
-  {
-    "image": "https://upload.wikimedia.org/wikipedia/commons/9/95/TikTok_logo.svg",
-    "title": "TikTok",
-    "companyName": "ByteDance Ltd.",
-    "id": 10,
-    "description": "Create, watch, and share short-form videos with music and filters.",
-    "size": 115,
-    "reviews": 31000000,
-    "ratingAvg": 4.4,
-    "downloads": 5000000000,
-    "ratings": [
-      { "name": "1 star", "count": 1800000 },
-      { "name": "2 star", "count": 2000000 },
-      { "name": "3 star", "count": 3000000 },
-      { "name": "4 star", "count": 7000000 },
-      { "name": "5 star", "count": 17200000 }
-    ]
-  },
-  {
-    "image": "https://upload.wikimedia.org/wikipedia/commons/4/44/Microsoft_logo.svg",
-    "title": "Microsoft Teams",
-    "companyName": "Microsoft Corporation",
-    "id": 11,
-    "description": "Collaborate with your team, chat, meet, and share files securely.",
-    "size": 150,
-    "reviews": 8700000,
-    "ratingAvg": 4.3,
-    "downloads": 1000000000,
-    "ratings": [
-      { "name": "1 star", "count": 700000 },
-      { "name": "2 star", "count": 800000 },
-      { "name": "3 star", "count": 1800000 },
-      { "name": "4 star", "count": 2800000 },
-      { "name": "5 star", "count": 2600000 }
-    ]
-  },
-  {
-    "image": "https://upload.wikimedia.org/wikipedia/commons/5/57/YouTube_Logo_2017.svg",
-    "title": "YouTube",
-    "companyName": "Google LLC",
-    "id": 12,
-    "description": "Watch, upload, and share videos from creators around the world.",
-    "size": 98,
-    "reviews": 52000000,
-    "ratingAvg": 4.7,
-    "downloads": 10000000000,
-    "ratings": [
-      { "name": "1 star", "count": 1500000 },
-      { "name": "2 star", "count": 2000000 },
-      { "name": "3 star", "count": 4000000 },
-      { "name": "4 star", "count": 10000000 },
-      { "name": "5 star", "count": 34500000 }
-    ]
-  },
-  {
-    "image": "https://upload.wikimedia.org/wikipedia/commons/2/21/Google_Photos_icon.svg",
-    "title": "Google Photos",
-    "companyName": "Google LLC",
-    "id": 13,
-    "description": "Store, organize, and share your photos with smart search and backup.",
-    "size": 65,
-    "reviews": 14000000,
-    "ratingAvg": 4.5,
-    "downloads": 5000000000,
-    "ratings": [
-      { "name": "1 star", "count": 500000 },
-      { "name": "2 star", "count": 900000 },
-      { "name": "3 star", "count": 1500000 },
-      { "name": "4 star", "count": 3000000 },
-      { "name": "5 star", "count": 8100000 }
-    ]
-  },
-  {
-    "image": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Google_Play_icon_(2022).svg",
-    "title": "Google Play Store",
-    "companyName": "Google LLC",
-    "id": 14,
-    "description": "Discover apps, games, movies, and more — all in one place.",
-    "size": 48,
-    "reviews": 44000000,
-    "ratingAvg": 4.6,
-    "downloads": 10000000000,
-    "ratings": [
-      { "name": "1 star", "count": 1400000 },
-      { "name": "2 star", "count": 1500000 },
-      { "name": "3 star", "count": 3000000 },
-      { "name": "4 star", "count": 8000000 },
-      { "name": "5 star", "count": 30100000 }
-    ]
-  },
-  {
-    "image": "https://upload.wikimedia.org/wikipedia/commons/9/96/Zoom_App_Logo.png",
-    "title": "Zoom",
-    "companyName": "Zoom Video Communications, Inc.",
-    "id": 15,
-    "description": "Meet, chat, and collaborate with high-quality video and screen sharing.",
-    "size": 120,
-    "reviews": 16000000,
-    "ratingAvg": 4.3,
-    "downloads": 1000000000,
-    "ratings": [
-      { "name": "1 star", "count": 700000 },
-      { "name": "2 star", "count": 900000 },
-      { "name": "3 star", "count": 1800000 },
-      { "name": "4 star", "count": 3200000 },
-      { "name": "5 star", "count": 9400000 }
-    ]
-  },
-  {
-    "image": "https://upload.wikimedia.org/wikipedia/commons/8/89/Discord_Color_Text_Logo_2021.svg",
-    "title": "Discord",
-    "companyName": "Discord Inc.",
-    "id": 16,
-    "description": "Chat with friends, join communities, and connect over shared interests.",
-    "size": 85,
-    "reviews": 8900000,
-    "ratingAvg": 4.6,
-    "downloads": 500000000,
-    "ratings": [
-      { "name": "1 star", "count": 300000 },
-      { "name": "2 star", "count": 500000 },
-      { "name": "3 star", "count": 900000 },
-      { "name": "4 star", "count": 2200000 },
-      { "name": "5 star", "count": 4900000 }
-    ]
-  },
-  {
-    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Trello_logo.svg",
-    "title": "Trello",
-    "companyName": "Atlassian Corporation",
-    "id": 17,
-    "description": "Organize your tasks, projects, and to-do lists visually and efficiently.",
-    "size": 55,
-    "reviews": 2600000,
-    "ratingAvg": 4.5,
-    "downloads": 100000000,
-    "ratings": [
-      { "name": "1 star", "count": 80000 },
-      { "name": "2 star", "count": 120000 },
-      { "name": "3 star", "count": 300000 },
-      { "name": "4 star", "count": 800000 },
-      { "name": "5 star", "count": 1300000 }
-    ]
-  },
-  {
-    "image": "https://upload.wikimedia.org/wikipedia/commons/1/19/Pinterest_logo.svg",
-    "title": "Pinterest",
-    "companyName": "Pinterest, Inc.",
-    "id": 18,
-    "description": "Discover and save creative ideas for recipes, fashion, home décor, and more.",
-    "size": 90,
-    "reviews": 14000000,
-    "ratingAvg": 4.7,
-    "downloads": 1000000000,
-    "ratings": [
-      { "name": "1 star", "count": 400000 },
-      { "name": "2 star", "count": 600000 },
-      { "name": "3 star", "count": 1300000 },
-      { "name": "4 star", "count": 3500000 },
-      { "name": "5 star", "count": 8200000 }
-    ]
-  },
-  {
-    "image": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Reddit_logo_orange.svg",
-    "title": "Reddit",
-    "companyName": "Reddit Inc.",
-    "id": 19,
-    "description": "Join discussions, explore topics, and share content across thousands of communities.",
-    "size": 70,
-    "reviews": 8900000,
-    "ratingAvg": 4.4,
-    "downloads": 500000000,
-    "ratings": [
-      { "name": "1 star", "count": 500000 },
-      { "name": "2 star", "count": 700000 },
-      { "name": "3 star", "count": 1300000 },
-      { "name": "4 star", "count": 2500000 },
-      { "name": "5 star", "count": 3900000 }
-    ]
-  },
-  {
-    "image": "https://upload.wikimedia.org/wikipedia/commons/5/59/Canva_Logo.svg",
-    "title": "Canva",
-    "companyName": "Canva Pty Ltd",
-    "id": 20,
-    "description": "Create stunning designs, presentations, and social media content easily.",
-    "size": 100,
-    "reviews": 13000000,
+    "image": "https://i.ibb.co.com/cKH9ch8H/Photo-Master.png",
+    "title": "PhotoMaster",
+    "companyName": "PixelHub",
+    "id": 2,
+    "description": "PhotoMaster redefines mobile photo editing with a blend of advanced AI tools and simple design. It lets users edit, enhance, and transform photos with professional precision in just a few taps. From retouching portraits to applying cinematic filters, PhotoMaster’s algorithms adjust lighting, sharpness, and tones automatically. The app also features one-touch background removal, batch editing, and cloud export for photographers on the go. Integrated tutorials make it easy for beginners to master editing, while experts can explore RAW image controls. With PhotoMaster, you don’t just edit pictures—you create captivating visual stories worth sharing.",
+    "size": 72,
+    "reviews": 5320,
     "ratingAvg": 4.8,
-    "downloads": 500000000,
+    "downloads": 5200000,
     "ratings": [
-      { "name": "1 star", "count": 200000 },
-      { "name": "2 star", "count": 300000 },
-      { "name": "3 star", "count": 700000 },
-      { "name": "4 star", "count": 2500000 },
-      { "name": "5 star", "count": 9300000 }
+      { "name": "1 star", "count": 140 },
+      { "name": "2 star", "count": 210 },
+      { "name": "3 star", "count": 420 },
+      { "name": "4 star", "count": 1120 },
+      { "name": "5 star", "count": 3430 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/S4Mwrf89/FitBuddy.png",
+    "title": "FitBuddy",
+    "companyName": "CoreTech",
+    "id": 3,
+    "description": "FitBuddy is your personalized digital fitness trainer designed to make your wellness journey smarter and more enjoyable. It creates custom workout plans based on your goals, fitness level, and available equipment. The app uses motion tracking to analyze your posture and provides instant feedback to improve form. It also integrates calorie tracking, hydration reminders, and sleep insights. You can connect with friends, join fitness challenges, and track progress through interactive charts. FitBuddy makes consistency achievable by rewarding you for every milestone. With built-in AI recommendations, it evolves with your habits to keep workouts effective and fun.",
+    "size": 54,
+    "reviews": 3120,
+    "ratingAvg": 4.5,
+    "downloads": 2600000,
+    "ratings": [
+      { "name": "1 star", "count": 110 },
+      { "name": "2 star", "count": 180 },
+      { "name": "3 star", "count": 450 },
+      { "name": "4 star", "count": 900 },
+      { "name": "5 star", "count": 1480 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/xtfR1M4w/NoteSync.png",
+    "title": "NoteSync",
+    "companyName": "CloudBase",
+    "id": 4,
+    "description": "NoteSync transforms your note-taking experience into something effortless and highly organized. Designed for students, professionals, and creatives alike, it syncs notes automatically across all devices. You can capture handwritten notes, voice memos, images, and even web clippings. Its smart search feature lets you find information instantly, while tags and folders help maintain structure. NoteSync supports offline access, ensuring your thoughts are available anytime. Integrated AI can summarize lengthy notes or generate outlines for reports. Whether you’re managing research, planning projects, or jotting daily thoughts, NoteSync helps you keep ideas safe, searchable, and beautifully structured.",
+    "size": 38,
+    "reviews": 2105,
+    "ratingAvg": 4.4,
+    "downloads": 1800000,
+    "ratings": [
+      { "name": "1 star", "count": 90 },
+      { "name": "2 star", "count": 140 },
+      { "name": "3 star", "count": 300 },
+      { "name": "4 star", "count": 620 },
+      { "name": "5 star", "count": 955 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/zTT2P8DD/Travel-Mate.png",
+    "title": "TravelMate",
+    "companyName": "GoGlobal",
+    "id": 5,
+    "description": "TravelMate is an intelligent travel assistant that plans, organizes, and enhances your journeys from start to finish. It helps you discover destinations, book accommodations, and find hidden gems tailored to your preferences. With built-in itinerary management, offline maps, and expense tracking, you can travel smarter and stress-free. TravelMate provides real-time updates on flight delays, weather, and local attractions. The app even offers AI-curated travel guides based on your past trips. Whether you’re backpacking solo or planning a family vacation, TravelMate ensures every moment is well-planned and memorable with the power of personalization and simplicity.",
+    "size": 89,
+    "reviews": 4900,
+    "ratingAvg": 4.7,
+    "downloads": 4100000,
+    "ratings": [
+      { "name": "1 star", "count": 150 },
+      { "name": "2 star", "count": 200 },
+      { "name": "3 star", "count": 500 },
+      { "name": "4 star", "count": 1100 },
+      { "name": "5 star", "count": 2950 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/GfmpWmsd/Soundify.jpg",
+    "title": "Soundify",
+    "companyName": "WaveLab",
+    "id": 6,
+    "description": "Soundify is a next-gen music streaming app built for true audiophiles. It combines high-quality audio, personalized playlists, and AI-based recommendations for a deeply immersive listening experience. Users can explore millions of songs across genres, create custom playlists, and even share tracks with friends. Soundify offers adaptive equalizers, offline playback, and real-time lyrics sync. The app analyzes your listening patterns to recommend tracks that match your mood or activity. With Soundify, music discovery becomes personal, fluid, and endlessly enjoyable—making every beat, lyric, and rhythm feel tailor-made for you.",
+    "size": 60,
+    "reviews": 7100,
+    "ratingAvg": 4.9,
+    "downloads": 8500000,
+    "ratings": [
+      { "name": "1 star", "count": 200 },
+      { "name": "2 star", "count": 260 },
+      { "name": "3 star", "count": 500 },
+      { "name": "4 star", "count": 1350 },
+      { "name": "5 star", "count": 4890 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/998qbg07/CodeLab.jpg",
+    "title": "CodeLab",
+    "companyName": "DevWorks",
+    "id": 7,
+    "description": "CodeLab brings coding to your fingertips with a complete mobile development environment. Supporting over 30 programming languages, it provides syntax highlighting, code autocompletion, debugging tools, and real-time collaboration. Developers can push commits directly to GitHub, run test environments, and preview web projects instantly. CodeLab’s clean interface makes it ideal for learning and professional development alike. Offline support lets you write and test code anywhere. With built-in AI suggestions and error explanations, CodeLab empowers developers to write cleaner, faster, and smarter code—making it the ultimate portable coding companion for creators of all levels.",
+    "size": 92,
+    "reviews": 2900,
+    "ratingAvg": 4.3,
+    "downloads": 1400000,
+    "ratings": [
+      { "name": "1 star", "count": 160 },
+      { "name": "2 star", "count": 190 },
+      { "name": "3 star", "count": 520 },
+      { "name": "4 star", "count": 900 },
+      { "name": "5 star", "count": 1130 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/d06LC4vk/Budget-Ease.png",
+    "title": "BudgetEase",
+    "companyName": "FinPlus",
+    "id": 8,
+    "description": "BudgetEase is an intelligent financial management tool that simplifies budgeting, expense tracking, and savings. It automatically categorizes transactions from connected bank accounts and visualizes your spending patterns. You can set goals, track recurring bills, and receive insights that help you save smarter. Its AI assistant identifies wasteful spending habits and recommends better alternatives. With built-in data encryption, your privacy is always secure. The app even supports multi-currency management for travelers and freelancers. BudgetEase turns financial planning into a positive experience by giving you full control and clarity over your money—anytime, anywhere.",
+    "size": 48,
+    "reviews": 3520,
+    "ratingAvg": 4.6,
+    "downloads": 2800000,
+    "ratings": [
+      { "name": "1 star", "count": 100 },
+      { "name": "2 star", "count": 150 },
+      { "name": "3 star", "count": 400 },
+      { "name": "4 star", "count": 800 },
+      { "name": "5 star", "count": 2070 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/x82HCs9S/Recipe-Hub.jpg",
+    "title": "RecipeHub",
+    "companyName": "FoodVerse",
+    "id": 9,
+    "description": "RecipeHub is your all-in-one kitchen companion that brings creativity and convenience to cooking. With over 10,000 recipes curated by chefs and food enthusiasts, you can explore meals based on dietary preferences, ingredients, and time. The app generates personalized weekly meal plans and grocery lists automatically. Built-in video tutorials make complex recipes easy to follow. RecipeHub also includes nutritional tracking, calorie breakdowns, and community sharing features where users post their own creations. Whether you’re cooking for family or experimenting with new cuisines, RecipeHub ensures every meal is delicious, balanced, and beautifully presented.",
+    "size": 67,
+    "reviews": 4320,
+    "ratingAvg": 4.8,
+    "downloads": 3900000,
+    "ratings": [
+      { "name": "1 star", "count": 120 },
+      { "name": "2 star", "count": 200 },
+      { "name": "3 star", "count": 380 },
+      { "name": "4 star", "count": 900 },
+      { "name": "5 star", "count": 2720 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/BHRC1SHY/MindEase.png",
+    "title": "MindEase",
+    "companyName": "WellCare",
+    "id": 10,
+    "description": "MindEase is a meditation and mindfulness app designed to help users reduce stress, sleep better, and improve mental focus. With hundreds of guided meditations, calming soundscapes, and breathing exercises, it supports your journey to emotional balance. The app offers daily mood tracking, goal-based sessions, and progress analytics. MindEase uses adaptive AI to recommend the right exercises for your mental state and schedule. It also integrates sleep stories and ambient music for relaxation. Whether you’re a beginner or experienced meditator, MindEase provides the tools to quiet your mind and reconnect with inner peace anytime, anywhere.",
+    "size": 59,
+    "reviews": 5200,
+    "ratingAvg": 4.9,
+    "downloads": 6200000,
+    "ratings": [
+      { "name": "1 star", "count": 130 },
+      { "name": "2 star", "count": 170 },
+      { "name": "3 star", "count": 450 },
+      { "name": "4 star", "count": 1100 },
+      { "name": "5 star", "count": 3350 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/HTgDyGsC/EduTrack.png",
+    "title": "EduTrack",
+    "companyName": "LearnEdge",
+    "id": 11,
+    "description": "EduTrack is a learning management app that simplifies studying and course tracking for students and educators. It organizes lessons, assignments, and progress in a sleek, interactive dashboard. Teachers can upload resources, track attendance, and grade students effortlessly. Students receive reminders for deadlines and access AI-powered study summaries. The app syncs with popular e-learning platforms like Coursera and Udemy, keeping everything in one place. EduTrack also includes focus timers, flashcards, and peer discussion boards. Whether for classroom use or personal learning, EduTrack makes education more accessible, engaging, and effective.",
+    "size": 85,
+    "reviews": 2700,
+    "ratingAvg": 4.6,
+    "downloads": 2100000,
+    "ratings": [
+      { "name": "1 star", "count": 120 },
+      { "name": "2 star", "count": 190 },
+      { "name": "3 star", "count": 380 },
+      { "name": "4 star", "count": 850 },
+      { "name": "5 star", "count": 1160 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/G4xNG45M/Shop-Smart.png",
+    "title": "ShopSmart",
+    "companyName": "RetailX",
+    "id": 12,
+    "description": "ShopSmart revolutionizes the shopping experience with AI-driven product comparisons, price alerts, and cashback offers. The app scans online stores and finds the best deals on products you love. Users can save wishlists, track prices over time, and receive personalized discounts. ShopSmart also analyzes reviews to highlight trustworthy sellers. With built-in barcode scanning, you can compare in-store prices instantly. Its secure payment integration ensures safe transactions. From fashion to electronics, ShopSmart helps you shop smarter, save money, and discover new brands without the hassle of switching between multiple platforms.",
+    "size": 52,
+    "reviews": 4900,
+    "ratingAvg": 4.7,
+    "downloads": 3700000,
+    "ratings": [
+      { "name": "1 star", "count": 110 },
+      { "name": "2 star", "count": 170 },
+      { "name": "3 star", "count": 410 },
+      { "name": "4 star", "count": 1000 },
+      { "name": "5 star", "count": 3210 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/qMDbrJnF/Media-Core.png",
+    "title": "StreamMax",
+    "companyName": "MediaCore",
+    "id": 13,
+    "description": "StreamMax is the ultimate entertainment hub, combining movies, TV shows, and live streaming in one seamless app. It offers personalized recommendations based on your watch history and mood. Users can create private watchlists, download offline episodes, and switch between devices with synchronized playback. The app supports 4K UHD and Dolby Atmos for an immersive experience. With family profiles, parental controls, and ad-free options, StreamMax provides entertainment tailored to everyone. Whether you’re binge-watching or exploring indie films, StreamMax delivers premium content beautifully, anytime you want.",
+    "size": 120,
+    "reviews": 8700,
+    "ratingAvg": 4.8,
+    "downloads": 9200000,
+    "ratings": [
+      { "name": "1 star", "count": 210 },
+      { "name": "2 star", "count": 280 },
+      { "name": "3 star", "count": 650 },
+      { "name": "4 star", "count": 1750 },
+      { "name": "5 star", "count": 5810 }
+    ]
+  },
+
+  {
+    "image": "https://i.ibb.co.com/WNCQm5Dw/foody.png",
+    "title": "Foodie Haven",
+    "companyName": "TasteLab Inc.",
+    "id": 14,
+    "description": "Foodie Haven connects you with thousands of local restaurants, cafes, and street food vendors in your city. You can browse menus, read authentic reviews, and place orders directly through the app. With its intuitive interface, you can track your order in real time, rate your meals, and earn rewards points for future discounts. The app also allows users to upload food photos, share personalized recommendations, and follow influencers for inspiration. Whether you’re craving pizza, sushi, or a midnight snack, Foodie Haven ensures a delightful food experience every time you open it.",
+    "size": 68,
+    "reviews": 32145,
+    "ratingAvg": 4.7,
+    "downloads": 8000000,
+    "ratings": [
+      { "name": "1 star", "count": 500 },
+      { "name": "2 star", "count": 900 },
+      { "name": "3 star", "count": 1500 },
+      { "name": "4 star", "count": 4200 },
+      { "name": "5 star", "count": 25000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/4wNtD8v3/FitMate.png",
+    "title": "FitMate",
+    "companyName": "ActiveCore Technologies",
+    "id": 15,
+    "description": "FitMate is your all-in-one fitness companion that helps you achieve your health goals with personalized workouts, nutrition tracking, and wellness insights. It provides AI-based daily exercise plans and smart reminders to keep you active throughout the day. You can sync it with your smartwatch to monitor steps, calories, and heart rate in real time. FitMate also offers guided meditations and sleep improvement sessions. With a supportive community and detailed progress reports, FitMate motivates you to stay consistent and lead a balanced lifestyle, no matter your fitness level or schedule.",
+    "size": 110,
+    "reviews": 44120,
+    "ratingAvg": 4.8,
+    "downloads": 10000000,
+    "ratings": [
+      { "name": "1 star", "count": 1200 },
+      { "name": "2 star", "count": 2200 },
+      { "name": "3 star", "count": 4000 },
+      { "name": "4 star", "count": 7000 },
+      { "name": "5 star", "count": 29720 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/ZRbXDgzv/Book-Verse.png",
+    "title": "BookVerse",
+    "companyName": "Readify Co.",
+    "id": 16,
+    "description": "BookVerse is an immersive reading platform where book lovers can discover, discuss, and enjoy their favorite novels in one place. With over a million ebooks, audiobooks, and comics, it’s perfect for every kind of reader. You can highlight quotes, leave reviews, and join live book clubs with authors and fans. The app’s AI-based recommendation system ensures you always find your next favorite read. BookVerse also syncs your progress across devices and lets you customize your reading experience with various themes, fonts, and reading modes for a comfortable, distraction-free experience.",
+    "size": 95,
+    "reviews": 23050,
+    "ratingAvg": 4.6,
+    "downloads": 6000000,
+    "ratings": [
+      { "name": "1 star", "count": 1000 },
+      { "name": "2 star", "count": 1500 },
+      { "name": "3 star", "count": 3000 },
+      { "name": "4 star", "count": 6000 },
+      { "name": "5 star", "count": 12550 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/RG72xzkn/EventHub.png",
+    "title": "EventHub",
+    "companyName": "UrbanSphere Ltd.",
+    "id": 17,
+    "description": "EventHub helps you discover nearby concerts, conferences, workshops, and festivals tailored to your interests. With smart filters, you can easily find events based on categories, price, and date. The app also integrates ticket purchasing, event reminders, and real-time updates. Whether you’re an artist promoting your event or an attendee looking for something fun to do, EventHub streamlines the entire experience. You can also follow favorite venues, get VIP passes, and share event experiences with friends, making EventHub the perfect platform for social explorers and culture enthusiasts.",
+    "size": 80,
+    "reviews": 18750,
+    "ratingAvg": 4.5,
+    "downloads": 4000000,
+    "ratings": [
+      { "name": "1 star", "count": 600 },
+      { "name": "2 star", "count": 1000 },
+      { "name": "3 star", "count": 2500 },
+      { "name": "4 star", "count": 5500 },
+      { "name": "5 star", "count": 9200 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/hJrqb4RN/LearnX.png",
+    "title": "LearnX",
+    "companyName": "EduNova",
+    "id": 18,
+    "description": "LearnX is an innovative e-learning app that makes education accessible for everyone. With interactive video lessons, quizzes, and live mentoring, it empowers learners to master new skills in technology, business, art, and more. LearnX also includes certification programs and community projects to help users build practical portfolios. The AI tutor tracks progress and gives personalized learning recommendations. You can download lessons offline, participate in global discussions, and even create your own learning path. Whether you’re a student, professional, or hobbyist, LearnX ensures growth through engaging and structured learning experiences.",
+    "size": 120,
+    "reviews": 51200,
+    "ratingAvg": 4.9,
+    "downloads": 15000000,
+    "ratings": [
+      { "name": "1 star", "count": 800 },
+      { "name": "2 star", "count": 1400 },
+      { "name": "3 star", "count": 3000 },
+      { "name": "4 star", "count": 9000 },
+      { "name": "5 star", "count": 37000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/yF4CyNFf/roadtrip.jpg",
+    "title": "RoadTrip Planner",
+    "companyName": "GeoAdventures Inc.",
+    "id": 19,
+    "description": "RoadTrip Planner helps travelers design perfect journeys with real-time navigation, scenic route suggestions, and location-based recommendations. You can plan stops for food, fuel, and sightseeing along your route while syncing maps for offline use. The app features curated travel itineraries, hotel booking integration, and an AI assistant that calculates estimated expenses and time. RoadTrip Planner’s community section allows users to share their experiences, photos, and travel tips. Whether you’re exploring the countryside or driving cross-country, this app makes every adventure smoother, safer, and more memorable.",
+    "size": 105,
+    "reviews": 28110,
+    "ratingAvg": 4.7,
+    "downloads": 7500000,
+    "ratings": [
+      { "name": "1 star", "count": 1000 },
+      { "name": "2 star", "count": 1500 },
+      { "name": "3 star", "count": 2500 },
+      { "name": "4 star", "count": 7000 },
+      { "name": "5 star", "count": 16610 }
     ]
   }
 ]
