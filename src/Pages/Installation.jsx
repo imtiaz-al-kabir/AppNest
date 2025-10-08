@@ -1,9 +1,12 @@
 import { useEffect, useState } from "react";
+import { toast } from "react-toastify";
 import downloadIcon from "../assets/icon-downloads.png";
 import ratingIcon from "../assets/icon-ratings.png";
+
 const formatDownloads = (num) => {
   if (num >= 1000000) return num / 1000000;
 };
+
 const Installation = () => {
   const [installation, setInstallation] = useState([]);
   const [sortOrder, setSortOder] = useState(null);
@@ -27,8 +30,10 @@ const Installation = () => {
     const installed = JSON.parse(localStorage.getItem("installation"));
     let updateList = installed.filter((p) => p.id !== id);
     setInstallation((prev) => prev.filter((p) => p.id !== id));
+
     localStorage.setItem("installation", JSON.stringify(updateList));
   };
+
   return (
     <div className="bg-[#f5f5f5] min-h-[calc(100vh-297px)] py-5">
       <div className="w-11/12 mx-auto">
@@ -85,19 +90,31 @@ const Installation = () => {
                             alt="ratings"
                           />
 
-                          <span className="text-lg text-orange-500">
+                          <span className="text-lg font-bold text-orange-500">
                             {product.ratingAvg}
                           </span>
                         </div>
                         <div className="flex gap-1 items-center">
-                          <h1>{product.size}MB</h1>
+                          <h1 className="font-bold">{product.size}MB</h1>
                         </div>
                       </div>
                     </div>
                     <div></div>
                   </div>
                   <button
-                    onClick={() => handleUninstall(product.id)}
+                    onClick={() => {
+                      handleUninstall(product.id),
+                        toast.success(`${product.title} is Uninstalling..`, {
+                          position: "top-center",
+                          autoClose: 5000,
+                          hideProgressBar: false,
+                          closeOnClick: false,
+                          pauseOnHover: true,
+                          draggable: true,
+                          progress: undefined,
+                          theme: "light",
+                        });
+                    }}
                     className="btn bg-green-400 text-white"
                   >
                     Uninstall

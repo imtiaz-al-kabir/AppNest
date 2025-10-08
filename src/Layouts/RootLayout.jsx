@@ -1,7 +1,7 @@
 import { Outlet } from "react-router";
+import { ToastContainer } from "react-toastify";
 import Footer from "../Components/Footer";
 import Navbar from "../Components/Navbar";
-
 const RootLayout = () => {
   return (
     <div className="min-h-screen  flex flex-col">
@@ -10,6 +10,7 @@ const RootLayout = () => {
         <Outlet />
       </div>
       <Footer />
+      <ToastContainer />
     </div>
   );
 };

@@ -27,7 +27,7 @@ const Apps = () => {
         );
       }
       setSearchLoading(false);
-    }, 300);
+    }, 400);
 
     return () => clearTimeout(timer);
   }, [searchProduct, products]);

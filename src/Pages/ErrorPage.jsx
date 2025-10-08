@@ -18,7 +18,7 @@ const ErrorPage = () => {
         {/* Content box */}
         <div className="mt-[-40px] sm:mt-[-60px]">
           <h3 className="text-xl sm:text-2xl md:text-3xl font-serif font-semibold text-gray-700">
-            Looks like you’re lost
+            Looks like you’re lost....
           </h3>
 
           <p className="text-gray-600 mt-2 text-sm sm:text-base">

@@ -1,5 +1,7 @@
+/* eslint-disable react-hooks/rules-of-hooks */
 import { useEffect, useState } from "react";
 import { useLocation } from "react-router";
+import { toast } from "react-toastify";
 import {
   Bar,
   BarChart,
@@ -12,6 +14,7 @@ import {
 import downloadIcon from "../assets/icon-downloads.png";
 import ratingIcon from "../assets/icon-ratings.png";
 import reviewIcon from "../assets/icon-review.png";
+import ErrorPageApps from "../Components/ErrorPageApps";
 const formatDownloads = (num) => {
   if (num >= 1000000) return num / 1000000;
   if (num >= 100000) return num / 100000;
@@ -19,6 +22,10 @@ const formatDownloads = (num) => {
 const AppDetails = () => {
   const location = useLocation();
   const product = location.state;
+  if (!product) {
+    return <ErrorPageApps />;
+  }
+
   const {
     image,
     title,
@@ -47,7 +54,16 @@ const AppDetails = () => {
     if (!alreadyInstalled) {
       const updatedList = [...existingList, product];
       localStorage.setItem("installation", JSON.stringify(updatedList));
-      alert("installed");
+      toast.success(`${title} is Installing..`, {
+        position: "top-center",
+        autoClose: 5000,
+        hideProgressBar: false,
+        closeOnClick: false,
+        pauseOnHover: true,
+        draggable: true,
+        progress: undefined,
+        theme: "light",
+      });
       setIsInstalled(true);
     }
   };
@@ -81,7 +97,7 @@ const AppDetails = () => {
                 <div>
                   <img className="size-7" src={ratingIcon} alt="ratings" />
                   <p className="text-[#314558]">Average Ratings</p>
-                  <span className="text-lg text-orange-500">{ratingAvg}</span>
+                  <span className="text-lg font-bold text-orange-500">{ratingAvg}</span>
                 </div>
                 <div>
                   <img className="size-7" src={reviewIcon} alt="" />
@@ -94,9 +110,9 @@ const AppDetails = () => {
               <button
                 disabled={isInstalled}
                 onClick={handleAddToInstallation}
-                className={`btn btn-lg mt-9 text-white ${
+                className={`btn-lg mt-9 text-white px-5 py-3 rounded-xl ${
                   isInstalled
-                    ? "bg-green-700"
+                    ? "bg-green-700 "
                     : "bg-[#00d390] hover:bg-[#00b87e]"
                 }`}
               >
@@ -121,7 +137,10 @@ const AppDetails = () => {
             </BarChart>
           </ResponsiveContainer>
         </div>
-        <h1>Description:{description} </h1>
+        <h1>
+          <span className="text-2xl font-bold">Description</span> <br />{" "}
+          {description}{" "}
+        </h1>
       </div>
     </div>
   );
