@@ -39,7 +39,7 @@ const Installation = () => {
           </h1>
           <label
             htmlFor=""
-            className="border border-gray-200 rounded-md px-5 py-2"
+            className="border border-purple-400 rounded-md px-5 py-2"
           >
             <select
               defaultValue={sortOrder}
@@ -52,58 +52,64 @@ const Installation = () => {
           </label>
         </div>
         <div className="flex flex-col  gap-3">
-          {sortedItem.map((product) => (
-            <div className="l ">
-              <div className="bg-white  flex flex-col md:flex-row justify-between items-center rounded-2xl px-10 py-3">
-                <div className="flex items-center gap-4">
-                  <div className="size-20 flex justify-center items-center ">
-                    <img
-                      className="w-full"
-                      src={product.image}
-                      alt={product.title}
-                    />
-                  </div>
-                  <div>
-                    <h1 className="text-start text-xl  font-bold ">
-                      {product.title}
-                    </h1>
+          {sortedItem.length ? (
+            sortedItem.map((product) => (
+              <div className="l ">
+                <div className="bg-white  flex flex-col md:flex-row justify-between items-center rounded-2xl px-10 py-3">
+                  <div className="flex items-center gap-4">
+                    <div className="size-20 flex justify-center items-center ">
+                      <img
+                        className="w-full"
+                        src={product.image}
+                        alt={product.title}
+                      />
+                    </div>
+                    <div>
+                      <h1 className="text-start text-xl  font-bold ">
+                        {product.title}
+                      </h1>
 
-                    <div className="flex gap-7 ">
-                      <div className="flex gap-1 items-center">
-                        <img className="size-5" src={downloadIcon} alt="" />
+                      <div className="flex gap-7 ">
+                        <div className="flex gap-1 items-center">
+                          <img className="size-5" src={downloadIcon} alt="" />
 
-                        <h1 className="text-lg font-bold text-green-600">
-                          {formatDownloads(product.downloads)}M
-                        </h1>
-                      </div>
+                          <h1 className="text-lg font-bold text-green-600">
+                            {formatDownloads(product.downloads)}M
+                          </h1>
+                        </div>
 
-                      <div className="flex gap-1 items-center">
-                        <img
-                          className="size-5"
-                          src={ratingIcon}
-                          alt="ratings"
-                        />
+                        <div className="flex gap-1 items-center">
+                          <img
+                            className="size-5"
+                            src={ratingIcon}
+                            alt="ratings"
+                          />
 
-                        <span className="text-lg text-orange-500">
-                          {product.ratingAvg}
-                        </span>
-                      </div>
-                      <div className="flex gap-1 items-center">
-                        <h1>{product.size}MB</h1>
+                          <span className="text-lg text-orange-500">
+                            {product.ratingAvg}
+                          </span>
+                        </div>
+                        <div className="flex gap-1 items-center">
+                          <h1>{product.size}MB</h1>
+                        </div>
                       </div>
                     </div>
+                    <div></div>
                   </div>
-                  <div></div>
+                  <button
+                    onClick={() => handleUninstall(product.id)}
+                    className="btn bg-green-400 text-white"
+                  >
+                    Uninstall
+                  </button>
                 </div>
-                <button
-                  onClick={() => handleUninstall(product.id)}
-                  className="btn bg-green-400 text-white"
-                >
-                  Uninstall
-                </button>
               </div>
-            </div>
-          ))}
+            ))
+          ) : (
+            <p className="flex min-h-[calc(100vh-410px)] justify-center h items-center text-2xl font-bold">
+              No Apps Installed Yet
+            </p>
+          )}
         </div>
       </div>
     </div>

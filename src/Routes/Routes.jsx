@@ -1,4 +1,5 @@
 import { createBrowserRouter } from "react-router";
+import ErrorPageApps from "../Components/ErrorPageApps";
 import RootLayout from "../Layouts/RootLayout";
 import AppDetails from "../Pages/AppDetails";
 import Apps from "../Pages/Apps";
@@ -9,17 +10,32 @@ import Installation from "../Pages/Installation";
 const router = createBrowserRouter([
   {
     path: "/",
-    Component: RootLayout,
-
+    element: <RootLayout />,
+    errorElement: <ErrorPage />, // Default for this layout
     children: [
       {
         index: true,
-        Component: Home,
+        element: <Home />,
       },
-      { path: "/apps", Component: Apps },
-      { path: "/installation", Component: Installation },
-      { path: "/app-details/:id", Component: AppDetails },
-      { path: "*", Component: ErrorPage },
+      {
+        path: "apps",
+        element: <Apps />,
+        errorElement: <ErrorPageApps />, // Custom error for this route
+      },
+      {
+        path: "installation",
+        element: <Installation />,
+        errorElement: <ErrorPage />, // Same as default, or you can change
+      },
+      {
+        path: "app-details/:id",
+        element: <AppDetails />,
+        errorElement: <ErrorPageApps />, // Custom error for AppDetails
+      },
+      {
+        path: "*",
+        element: <ErrorPage />, // Fallback 404
+      },
     ],
   },
 ]);
