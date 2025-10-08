@@ -35,8 +35,8 @@ const Navbar = () => {
               tabIndex={0}
               className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow"
             >
-              {navLinks.map((link) => (
-                <li>
+              {navLinks.map((link,ind) => (
+                <li key={ind}>
                   <NavLink
                     className={({ isActive }) =>
                       isActive
@@ -51,17 +51,17 @@ const Navbar = () => {
               ))}
             </ul>
           </div>
-          <Link className="btn btn-ghost text-xl">
+          <Link to="/" className=" flex items-center text-xl">
             <img className="size-10" src={logo} alt="hero" />
             <span className="font-bold hidden sm:block bg-gradient-to-r from-[#632ee3]  to-[#9f62f2] bg-clip-text text-transparent">
-              HERO.IO
+              App<span className="text-2xl font-extrabold">N</span>est
             </span>
           </Link>
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">
-            {navLinks.map((link) => (
-              <li>
+            {navLinks.map((link,ind) => (
+              <li key={ind}>
                 <NavLink
                   className={({ isActive }) =>
                     isActive

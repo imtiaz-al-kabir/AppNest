@@ -7,7 +7,7 @@ const Footer = () => {
         <aside>
          <img className="size-15" src={logo} alt="" />
           <p>
-            HERO.IO
+            AppNest
             <br />
             Providing reliable tech since 1992
           </p>
