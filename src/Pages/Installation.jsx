@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import downloadIcon from "../assets/icon-downloads.png";
 import ratingIcon from "../assets/icon-ratings.png";
 const formatDownloads = (num) => {
-  if (num >= 1000000) return num / 1_000_000;
+  if (num >= 1000000) return num / 1000000;
 };
 const Installation = () => {
   const [installation, setInstallation] = useState([]);
@@ -30,16 +30,19 @@ const Installation = () => {
     localStorage.setItem("installation", JSON.stringify(updateList));
   };
   return (
-    <div className="bg-[#f5f5f5] pb-14">
+    <div className="bg-[#f5f5f5] min-h-[calc(100vh-297px)] py-5">
       <div className="w-11/12 mx-auto">
-        <div className="flex justify-between items-center px-5 py-4">
-          <h1>({sortedItem.length}) Apps found</h1>
+        <div className="flex  justify-between items-center px-5 py-4">
+          <h1 className="text-xs">
+            ({sortedItem.length}){" "}
+            <span className="font-semibold text-xl">Apps Found</span>
+          </h1>
           <label
             htmlFor=""
             className="border border-gray-200 rounded-md px-5 py-2"
           >
             <select
-              Value={sortOrder}
+              defaultValue={sortOrder}
               onChange={(e) => setSortOder(e.target.value)}
             >
               <option value="none">Sort By Size</option>
@@ -51,7 +54,7 @@ const Installation = () => {
         <div className="flex flex-col  gap-3">
           {sortedItem.map((product) => (
             <div className="l ">
-              <div className="bg-white  flex justify-between items-center rounded-2xl px-10 py-3">
+              <div className="bg-white  flex flex-col md:flex-row justify-between items-center rounded-2xl px-10 py-3">
                 <div className="flex items-center gap-4">
                   <div className="size-20 flex justify-center items-center ">
                     <img

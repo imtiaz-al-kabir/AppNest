@@ -34,14 +34,12 @@ const AppDetails = () => {
 
   const [isInstalled, setIsInstalled] = useState(false);
 
-  // ✅ Check if already installed
   useEffect(() => {
     const existingList = JSON.parse(localStorage.getItem("installation")) || [];
     const alreadyInstalled = existingList.some((item) => item.id === id);
     setIsInstalled(alreadyInstalled);
   }, [id]);
 
-  // ✅ Handle installation
   const handleAddToInstallation = () => {
     const existingList = JSON.parse(localStorage.getItem("installation")) || [];
     const alreadyInstalled = existingList.some((item) => item.id === id);

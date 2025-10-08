@@ -1,10 +1,11 @@
 import { Link } from "react-router";
 
+import LoadingSpinner from "../Components/LoadingSpinner";
 import ProductCard from "../Components/ProductCard";
 import useProducts from "../Hooks/useProducts";
 
 const Trending = () => {
-  const { products } = useProducts();
+  const { products, loading } = useProducts();
 
   const trendingProducts = products.slice(0, 8);
   return (
@@ -16,9 +17,13 @@ const Trending = () => {
         </p>
 
         <div className="grid grid-cols-1  sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 pb-10 gap-6">
-          {trendingProducts.map((product) => (
-            <ProductCard key={product.id} product={product} />
-          ))}
+          {loading ? (
+            <LoadingSpinner />
+          ) : (
+            trendingProducts.map((product) => (
+              <ProductCard key={product.id} product={product} />
+            ))
+          )}
         </div>
         <div className="pt-10 pb-20">
           <Link
