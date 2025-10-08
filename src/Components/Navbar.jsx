@@ -4,7 +4,7 @@ import logo from "../assets/logo.png";
 
 const Navbar = () => {
   const navLinks = [
-    { path: "", label: "Home" },
+    { path: "/", label: "Home" },
     { path: "/apps", label: "Apps" },
     { path: "/installation", label: "Installation" },
   ];

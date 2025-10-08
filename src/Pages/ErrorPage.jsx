@@ -5,7 +5,7 @@ const ErrorPage = () => {
   const error = useRouteError();
 
   return (
-    <div className="py-10 bg-white font-[inter] overflow-hidden  flex items-center justify-center">
+    <div className="py-10 bg-white font-[inter] overflow-hidden  flex items-center justify-center min-h-screen">
       <section className="w-full max-w-3xl text-center px-4">
         <div
           className="bg-center bg-no-repeat bg-contain h-[250px] sm:h-[350px] md:h-[450px] flex  justify-center "
