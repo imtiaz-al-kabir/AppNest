@@ -10,6 +10,7 @@ const router = createBrowserRouter([
   {
     path: "/",
     Component: RootLayout,
+    errorElement:<ErrorPage/>,
 
     children: [
       {
@@ -22,7 +23,7 @@ const router = createBrowserRouter([
         path: "/app-details/:id",
         Component: AppDetails,
       },
-      { path: "*", Component: ErrorPage },
+      // { path: "*", Component: ErrorPage },
       // { path: "/app-details/:id", Component: ErrorPageApps },
     ],
   },

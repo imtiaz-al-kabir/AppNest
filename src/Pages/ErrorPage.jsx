@@ -1,11 +1,12 @@
-import { Link } from "react-router";
+import { Link, useRouteError } from "react-router";
 import bg from "../assets/bg.gif";
 
 const ErrorPage = () => {
+  const error = useRouteError();
+
   return (
     <div className="py-10 bg-white font-[inter] overflow-hidden  flex items-center justify-center">
       <section className="w-full max-w-3xl text-center px-4">
-        {/* Background with 404 text */}
         <div
           className="bg-center bg-no-repeat bg-contain h-[250px] sm:h-[350px] md:h-[450px] flex  justify-center "
           style={{ backgroundImage: `url(${bg})` }}
@@ -15,12 +16,14 @@ const ErrorPage = () => {
           </h1>
         </div>
 
-        {/* Content box */}
         <div className="mt-[-40px] sm:mt-[-60px]">
           <h3 className="text-xl sm:text-2xl md:text-3xl font-serif font-semibold text-gray-700">
             Looks like you’re lost....
           </h3>
 
+          <p className="text-gray-600 mt-2 text-sm sm:text-base">
+            {error.message}
+          </p>
           <p className="text-gray-600 mt-2 text-sm sm:text-base">
             The page you are looking for is not available!
           </p>
