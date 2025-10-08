@@ -1,3 +1,4 @@
+import { useEffect, useState } from "react";
 import { useLocation } from "react-router";
 import {
   Bar,
@@ -27,7 +28,31 @@ const AppDetails = () => {
     description,
     reviews,
     companyName,
+    size,
+    id,
   } = product;
+
+  const [isInstalled, setIsInstalled] = useState(false);
+
+  // ✅ Check if already installed
+  useEffect(() => {
+    const existingList = JSON.parse(localStorage.getItem("installation")) || [];
+    const alreadyInstalled = existingList.some((item) => item.id === id);
+    setIsInstalled(alreadyInstalled);
+  }, [id]);
+
+  // ✅ Handle installation
+  const handleAddToInstallation = () => {
+    const existingList = JSON.parse(localStorage.getItem("installation")) || [];
+    const alreadyInstalled = existingList.some((item) => item.id === id);
+
+    if (!alreadyInstalled) {
+      const updatedList = [...existingList, product];
+      localStorage.setItem("installation", JSON.stringify(updatedList));
+      alert("installed");
+      setIsInstalled(true);
+    }
+  };
 
   return (
     <div className="bg-[#f5f5f5]">
@@ -68,7 +93,17 @@ const AppDetails = () => {
                   </h1>
                 </div>
               </div>
-              <button className="btn mt-9">Install Now (291 MB)</button>
+              <button
+                disabled={isInstalled}
+                onClick={handleAddToInstallation}
+                className={`btn btn-lg mt-9 text-white ${
+                  isInstalled
+                    ? "bg-green-700"
+                    : "bg-[#00d390] hover:bg-[#00b87e]"
+                }`}
+              >
+                {isInstalled ? "Installed" : `Install Now (${size} MB)`}
+              </button>
             </div>
           </div>
         </div>
