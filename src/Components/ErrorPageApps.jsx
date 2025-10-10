@@ -11,14 +11,14 @@ const ErrorPageApps = () => {
           style={{ backgroundImage: `url(${bg})` }}
         >
           <h1 className="text-[60px] sm:text-[80px] md:text-[100px] font-serif font-bold text-gray-800 -my-10">
-            404
+            Apps Not Found
           </h1>
         </div>
 
         {/* Content box */}
         <div className="mt-[-40px] sm:mt-[-60px]">
           <h3 className="text-xl sm:text-2xl md:text-3xl font-serif font-semibold text-gray-700">
-            No Apps Found
+            The Apps you are looking for is not Found
           </h3>
 
           <p className="text-gray-600 mt-2 text-sm sm:text-base">
