@@ -85,11 +85,11 @@ const AppDetails = () => {
                 </span>
               </p>
 
-              <div className="flex gap-7 pt-15">
+              <div className="flex gap-10 pt-15">
                 <div>
                   <img className="size-7" src={downloadIcon} alt="" />
                   <p className="text-[#314558]">Downloads</p>
-                  <h1 className="text-lg font-bold text-green-600">
+                  <h1 className="text-2xl font-bold text-green-600">
                     {formatDownloads(downloads)}M
                   </h1>
                 </div>
@@ -97,12 +97,14 @@ const AppDetails = () => {
                 <div>
                   <img className="size-7" src={ratingIcon} alt="ratings" />
                   <p className="text-[#314558]">Average Ratings</p>
-                  <span className="text-lg font-bold text-orange-500">{ratingAvg}</span>
+                  <span className="text-2xl font-bold text-orange-500">
+                    {ratingAvg}
+                  </span>
                 </div>
                 <div>
                   <img className="size-7" src={reviewIcon} alt="" />
                   <p className="text-[#314558]">Total Reviews</p>
-                  <h1 className="text-lg font-bold text-green-600">
+                  <h1 className="text-2xl font-bold text-green-600">
                     {reviews}
                   </h1>
                 </div>
@@ -139,7 +141,7 @@ const AppDetails = () => {
         </div>
         <h1>
           <span className="text-2xl font-bold">Description</span> <br />{" "}
-          {description}{" "}
+          <span className="text-[#627382]">{description}</span>{" "}
         </h1>
       </div>
     </div>
