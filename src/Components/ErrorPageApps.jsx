@@ -10,7 +10,7 @@ const ErrorPageApps = () => {
           className="bg-center bg-no-repeat bg-contain h-[250px] sm:h-[350px] md:h-[450px] flex  justify-center "
           style={{ backgroundImage: `url(${bg})` }}
         >
-          <h1 className="text-[60px] sm:text-[80px] md:text-[100px] font-serif font-bold text-gray-800 -my-10">
+          <h1 className="text-[40px] sm:text-[50px] md:text-[70px] font-serif font-bold text-gray-800 -my-10">
             Apps Not Found
           </h1>
         </div>
