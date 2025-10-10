@@ -18,9 +18,9 @@ const Installation = () => {
 
   const sortedItem = (() => {
     if (sortOrder === "size-asc") {
-      return [...installation].sort((a, b) => a.size - b.size);
+      return [...installation].sort((a, b) => a.downloads - b.downloads);
     } else if (sortOrder === "size-dsc") {
-      return [...installation].sort((a, b) => b.size - a.size);
+      return [...installation].sort((a, b) => b.downloads - a.downloads);
     } else {
       return installation;
     }
@@ -50,7 +50,7 @@ const Installation = () => {
               defaultValue={sortOrder}
               onChange={(e) => setSortOder(e.target.value)}
             >
-              <option value="none">Sort By Size</option>
+              <option value="none">Sort By Download</option>
               <option value="size-asc">Low &gt; high</option>
               <option value="size-dsc">High &gt; Low</option>
             </select>
