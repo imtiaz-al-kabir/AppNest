@@ -10,12 +10,9 @@ AppNest is a responsive and user-friendly web application where users can browse
 
 ## 🖼️ Project Screenshot
 
-
-
-```md
-![AppNest Screenshot](./image.png)
-
-```
+<p align="center">
+  <img src="./public/image.png" alt="Hero IO Screenshot" width="700"/>
+</p>
 
 ---
 
