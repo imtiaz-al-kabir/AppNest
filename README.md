@@ -13,7 +13,8 @@ AppNest is a responsive and user-friendly web application where users can browse
 
 
 ```md
-![AppNest Screenshot](/image.png)
+![AppNest Screenshot](image.png)
+
 ```
 
 ---
@@ -103,8 +104,4 @@ http://localhost:5173
 
 ---
 
-## 🔗 Additional Links (Optional)
 
-* Frontend Repository
-* Documentation
-* Serverless/API Links
