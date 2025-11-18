@@ -13,7 +13,7 @@ AppNest is a responsive and user-friendly web application where users can browse
 
 
 ```md
-![AppNest Screenshot](image.png)
+![AppNest Screenshot](./image.png)
 
 ```
 
