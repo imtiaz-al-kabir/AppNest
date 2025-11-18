@@ -1,8 +1,6 @@
-
 # AppNest
 
-AppNest is a web application platform that showcases and manages apps with a focus on user-friendly design and seamless functionality. Built using react and tailwind, the platform allows users to explore, search, and interact with app listings dynamically. The project integrates APIs and serverless functions to handle real-time data efficiently, while deployment on Netlify ensures fast load times, reliability, and scalability across devices.
----
+## AppNest is a web application platform that showcases and manages apps with a focus on user-friendly design and seamless functionality. Built using React and Tailwind, the platform allows users to explore, search, and interact with app listings dynamically. The project integrates APIs and serverless functions to handle real-time data efficiently, while deployment on Netlify ensures fast load times, reliability, and scalability across devices.
 
 ## 📌 Project Overview
 
@@ -12,10 +10,10 @@ AppNest is a responsive and user-friendly web application where users can browse
 
 ## 🖼️ Project Screenshot
 
-Replace the path with your actual screenshot:
+
 
 ```md
-![AppNest Screenshot]("./image.png")
+![AppNest Screenshot](/image.png)
 ```
 
 ---
@@ -61,8 +59,6 @@ Replace the path with your actual screenshot:
     "tailwindcss": "^4.1.14"
 }
 ```
-
-*(Add exact version numbers from your package.json if needed.)*
 
 ---
 
